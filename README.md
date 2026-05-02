@@ -60,7 +60,40 @@ Behavioral Score =
 0.20 × Activity Diversity +
 0.20 × Assessment Performance
 ```
+
+### Student Behavioral Archetype Classification
+
+Identifies distinct learning behavior patterns by analyzing engagement trends.
+
+Student groups include:
+
+- Consistent Performers → maintain stable engagement
+- Last-Minute Sprinters → show sudden activity spikes near deadlines
+- Drop-off Students → gradually disengage over time
+
+This helps institutions better understand different learner behaviors.
+
+### Predictive Disengagement Model
+
+Uses early-course behavioral signals to predict whether students are likely to disengage.
+
+The model leverages:
+
+Weekly engagement metrics
+Dynamic scores
+Assessment behavior
+First five weeks of student activity
+
+Built using XGBoost for early-risk identification.
+
 ### Dataset
 
 This project uses the OULAD (Open University Learning Analytics Dataset). 
 Dataset source: https://raw.githubusercontent.com/vjcalling/OULAD-data-analysis-EDA-/master/data/raw/
+
+### Technology Stack
+Python
+Pandas
+Matplotlib
+Scikit-learn
+XGBoost
